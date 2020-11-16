@@ -1,0 +1,2 @@
+(Dataset:SIP; Model:Ours) Smeasure:0.856; MAE:0.070; adpEm:0.893; meanEm:0.880; maxEm:0.902; adpFm:0.817; meanFm:0.814; maxFm:0.850
+(Dataset:SIP; Model:Ours+) Smeasure:0.850; MAE:0.071; adpEm:0.891; meanEm:0.882; maxEm:0.899; adpFm:0.813; meanFm:0.812; maxFm:0.847

@@ -1,0 +1,2 @@
+(Dataset:NJUDS; Model:Ours) Smeasure:NaN; MAE:NaN; adpEm:NaN; meanEm:NaN; maxEm:NaN; adpFm:NaN; meanFm:NaN; maxFm:NaN
+(Dataset:NJUDS; Model:Ours+) Smeasure:NaN; MAE:NaN; adpEm:NaN; meanEm:NaN; maxEm:NaN; adpFm:NaN; meanFm:NaN; maxFm:NaN

@@ -1,0 +1,2 @@
+(Dataset:NLPR; Model:Ours) Smeasure:0.896; MAE:0.039; adpEm:0.926; meanEm:0.908; maxEm:0.930; adpFm:0.830; meanFm:0.837; maxFm:0.870
+(Dataset:NLPR; Model:Ours+) Smeasure:0.903; MAE:0.032; adpEm:0.936; meanEm:0.922; maxEm:0.939; adpFm:0.843; meanFm:0.854; maxFm:0.880

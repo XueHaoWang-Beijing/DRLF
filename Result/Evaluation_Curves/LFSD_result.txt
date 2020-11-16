@@ -1,0 +1,2 @@
+(Dataset:LFSD; Model:Ours) Smeasure:0.836; MAE:0.090; adpEm:0.868; meanEm:0.853; maxEm:0.874; adpFm:0.818; meanFm:0.800; maxFm:0.822
+(Dataset:LFSD; Model:Ours+) Smeasure:0.834; MAE:0.089; adpEm:0.866; meanEm:0.859; maxEm:0.873; adpFm:0.821; meanFm:0.808; maxFm:0.828

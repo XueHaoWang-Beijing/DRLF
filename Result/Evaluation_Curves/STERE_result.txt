@@ -1,0 +1,2 @@
+(Dataset:STERE; Model:Ours) Smeasure:0.880; MAE:0.057; adpEm:0.903; meanEm:0.895; maxEm:0.921; adpFm:0.826; meanFm:0.829; maxFm:0.866
+(Dataset:STERE; Model:Ours+) Smeasure:0.888; MAE:0.050; adpEm:0.915; meanEm:0.911; maxEm:0.929; adpFm:0.845; meanFm:0.850; maxFm:0.878

@@ -1,0 +1,2 @@
+(Dataset:DUT; Model:Ours) Smeasure:0.824; MAE:0.084; adpEm:0.872; meanEm:0.830; maxEm:0.855; adpFm:0.804; meanFm:0.772; maxFm:0.795
+(Dataset:DUT; Model:Ours+) Smeasure:0.826; MAE:0.080; adpEm:0.870; meanEm:0.841; maxEm:0.856; adpFm:0.803; meanFm:0.783; maxFm:0.801

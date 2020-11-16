@@ -1,0 +1,2 @@
+(Dataset:DES; Model:Ours) Smeasure:0.890; MAE:0.034; adpEm:0.954; meanEm:0.894; maxEm:0.939; adpFm:0.860; meanFm:0.829; maxFm:0.852
+(Dataset:DES; Model:Ours+) Smeasure:0.895; MAE:0.030; adpEm:0.954; meanEm:0.910; maxEm:0.940; adpFm:0.868; meanFm:0.852; maxFm:0.869

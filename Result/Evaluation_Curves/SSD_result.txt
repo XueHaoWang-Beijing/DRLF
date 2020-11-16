@@ -1,0 +1,2 @@
+(Dataset:SSD; Model:Ours) Smeasure:0.837; MAE:0.069; adpEm:0.870; meanEm:0.843; maxEm:0.866; adpFm:0.785; meanFm:0.783; maxFm:0.809
+(Dataset:SSD; Model:Ours+) Smeasure:0.835; MAE:0.066; adpEm:0.880; meanEm:0.853; maxEm:0.870; adpFm:0.801; meanFm:0.791; maxFm:0.810
