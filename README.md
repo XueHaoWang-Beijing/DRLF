@@ -15,33 +15,35 @@ Ours:  | [All](https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyvkyPH3gC
 | [SSD](https://drive.google.com/file/d/1q8yRa3ckKFOFaQQ4WgRwJU6wqJT5PERD/view?usp=sharing)
 | [STERE](https://drive.google.com/file/d/1TVt19Jpg5nZrBHaY863Foz0735fjboVD/view?usp=sharing) |
 
-Ours+: [All](https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
-|[DES+]()
-|[DUT+]()
-|[LFSD+]()
-|[NJU2K+]()
-|[NLPR+]()
-|[SIP+]()
-|[SSD+]()
-|[STERE+]()
+Ours+: | [All](https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
+| [DES+](https://drive.google.com/file/d/1f8ney3in65ToQDBghLwZVrRdDNkn8QCK/view?usp=sharing)
+| [DUT+](https://drive.google.com/file/d/1ywIIJJxKvZFFEkgF9HWSJem7I75omret/view?usp=sharing)
+| [LFSD+](https://drive.google.com/file/d/1qNGG7F9WthCgq9uPlRrPU1foFczbYLtB/view?usp=sharing)
+| [NJU2K+](https://drive.google.com/file/d/1tHBRnOwjxZ3B0s8pwWI50z15SO_gQwDj/view?usp=sharing)
+| [NLPR+](https://drive.google.com/file/d/1vs8nXFrtA8QeSO2GQQnihYuF9YDVqVqW/view?usp=sharing)
+| [SIP+](https://drive.google.com/file/d/1bIVvn5cTBt3yst0TA9Gbl8V4yzJnMLuf/view?usp=sharing)
+| [SSD+](https://drive.google.com/file/d/10IrXF3ae_kz1uhVlbfp6mSWgseQacK-j/view?usp=sharing)
+| [STERE+](https://drive.google.com/file/d/16rc4HgrH1IEYGZO9RZsVyMw-XubtIO6c/view?usp=sharing) |
+
+The evaluation can be seen in folder ['/Result/Evaluation_Curves/'](https://github.com/XueHaoWang-Beijing/DRLF/tree/master/Result/Evaluation_Curves)
 
 ## Prerequisites
-| [Caffe](https://github.com/BVLC/caffe) | [CUDA10](https://developer.nvidia.com/cuda-downloads) | [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/) | [Matlab2016b](https://www.mathworks.com/) |
+| [caffe-master](https://github.com/BVLC/caffe) | [CUDA10](https://developer.nvidia.com/cuda-downloads) | [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/) | [Matlab2016b](https://www.mathworks.com/) |
 
 ## Testing
-1. Download [RGBD datasets](https://drive.google.com/open?id=1DSJh3Tx_L48QPPXwtdTmNz3LELovAJpm) or [Testing sets](https://drive.google.com/open?id=1--_tAMlg_aUe_Qlub3H5oTQ2qGdqX-CW) from the anonymous links and extract it to `./CWDF/Dataset/Test/`
+1. Download [Testing sets](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) and extract it to `./`
 
-2. Download our pretrained model from the [anonymous link](https://drive.google.com/open?id=19X4D3k1P7PUWsn6Y6mq6vtk4lsmbLmgB)
-* "Ours.caffemodel" should put into the folder "Ours"
-* "Ours+.caffemodel" should put into the folder "Ours+"
+2. Download our pretrained [model](https://drive.google.com/drive/folders/1XxAvrP6LdQsWhycTxXyyCVHBl1S4V-xV?usp=sharing) and store them to './model/'
+* "Ours.caffemodel" :For the results
+* "Ours+.caffemodel" :For the final improved results
 
 3. Run the test demo
-* Firstly, run "test.m" in "Ours" folder to generate the saliency maps. There are one output folders as "fuse" for the final results.
-* Secondly, run "test+.m" in "Ours+" folder to obtain the improved results. Similarly, there are one output folders as "fuse+" for the final improved results.
+* Firstly, run "test.m" in "Ours" folder to generate the saliency maps. 
+* Secondly, run "test+.m" in "Ours+" folder to obtain the improved results.
 
 ## Training
-1. Download training data from the [anonymous link](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing), and extract it to `./CWDF/Dataset/Train/`
-2. Download [initial VGG16 model](https://drive.google.com/open?id=1GzhdJuPNtRCxnnK0AWpFHeb5jwMPJ6HK) and put it into `./CWDF/Model/`
-3. Start to train our network with `sh ./CWDF/ours/finetune.sh`.
+1. Download training [data](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing)  and extract it to `./Dataset/Train/`
+2. Download [initial VGG16 model](https://drive.google.com/file/d/1GzhdJuPNtRCxnnK0AWpFHeb5jwMPJ6HK/view?usp=sharing) and put it into `./Model/`
+3. Start to train our network with `sh ./ours/finetune.sh`.
 4. Calculate the saliency predictions refer to "Testing 3.1".
-5. Start to train our improved network with `sh ./CWDF/ours+/finetune.sh`.
+5. Start to train our improved network with `sh ./ours+/finetune.sh`.
