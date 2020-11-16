@@ -5,8 +5,8 @@ This repository contains code for paper "Data-Level Recombination and Lightweigh
 * The "Ours+" folder contains the source code of our improved network, which replaces the original depth maps with the saliency predictions generated above.
 
 ## Results
-Ours:  All(https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyvkyPH3gC/view?usp=sharing)
-Ours+: All(https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
+Ours:  [All](https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyvkyPH3gC/view?usp=sharing)
+Ours+: [All](https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
 
 ## Prerequisites
 | [Caffe](https://github.com/BVLC/caffe) | [CUDA10](https://developer.nvidia.com/cuda-downloads) | [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/) | [Matlab2016b](https://www.mathworks.com/) |
