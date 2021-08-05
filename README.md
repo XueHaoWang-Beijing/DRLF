@@ -55,9 +55,9 @@ The evaluation can be seen in folder ['/Result/Evaluation_Curves/'](https://gith
 | [caffe-master](https://github.com/BVLC/caffe) | [CUDA10](https://developer.nvidia.com/cuda-downloads) | [CUDNN7.5](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/) | [Matlab2016b](https://www.mathworks.com/) |
 
 ## Testing
-1. Download Testing sets [GoogleDrive](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) [BaiduYun](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) and extract it to `./`
+1. Download Testing sets [GoogleDrive](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) [BaiduYun(5nga)](https://pan.baidu.com/s/1ejHzmdsDLKXCb94QZoWHrg) and extract it to `./`
 
-2. Download our pretrained model [GoogleDrive](https://drive.google.com/drive/folders/1XxAvrP6LdQsWhycTxXyyCVHBl1S4V-xV?usp=sharing) [BaiduYun](https://drive.google.com/drive/folders/1XxAvrP6LdQsWhycTxXyyCVHBl1S4V-xV?usp=sharing) and store them to './model/'
+2. Download our pretrained model [GoogleDrive](https://drive.google.com/drive/folders/1XxAvrP6LdQsWhycTxXyyCVHBl1S4V-xV?usp=sharing) [BaiduYun(ywsx)](https://pan.baidu.com/s/1ON0lOejjtj23xzN3kkZCZQ) and store them to './model/'
 * "Ours.caffemodel" :For the results
 * "Ours+.caffemodel" :For the final improved results
 
@@ -66,8 +66,8 @@ The evaluation can be seen in folder ['/Result/Evaluation_Curves/'](https://gith
 * Secondly, run "test+.m" in "Ours+" folder to obtain the improved results.
 
 ## Training
-1. Download training data [GoogleDrive](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) [BaiduYun](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) and extract it to `./Dataset/Train/`
-2. Download initial VGG16 model [GoogleDrive](https://drive.google.com/file/d/1GzhdJuPNtRCxnnK0AWpFHeb5jwMPJ6HK/view?usp=sharing) [BaiduYun](https://drive.google.com/file/d/1GzhdJuPNtRCxnnK0AWpFHeb5jwMPJ6HK/view?usp=sharing) and put it into `./Model/`
+1. Download training data [GoogleDrive](https://drive.google.com/file/d/1tmGjqfIAO2cTDZ8QmHXsUlBfZPTbtVeU/view?usp=sharing) [BaiduYun(f8hk)](https://pan.baidu.com/s/1aGFNsgh8AuNq_Wwktbf0Cw) and extract it to `./Dataset/Train/`
+2. Download initial VGG16 model [GoogleDrive](https://drive.google.com/file/d/1GzhdJuPNtRCxnnK0AWpFHeb5jwMPJ6HK/view?usp=sharing) [BaiduYun(ftss)](https://pan.baidu.com/s/1V30lkXJg5XkwDvTjDyMQ3A) and put it into `./Model/`
 3. Start to train our network with `sh ./ours/finetune.sh`.
 4. Calculate the saliency predictions refer to "Testing 3.1".
 5. Start to train our improved network with `sh ./ours+/finetune.sh`.
