@@ -5,7 +5,8 @@ This repository contains code for paper "Data-Level Recombination and Lightweigh
 * The "Ours+" folder contains the source code of our improved network, which replaces the original depth maps with the saliency predictions generated above.
 
 ## Results
-Ours:  | [All](https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyvkyPH3gC/view?usp=sharing)
+Ours:  | [All Google](https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyvkyPH3gC/view?usp=sharing)
+| [All Baidu|gw7w](https://pan.baidu.com/s/1o4EUKpsAdhwz5fzRq8cDeg)
 | [DES](https://drive.google.com/file/d/10X5OzrK79-SL16Rk1WVR6RZAgvAJ3DX_/view?usp=sharing)
 | [DUT](https://drive.google.com/file/d/1o5h8NkEo93KSliYuIpNQs56F5uPjNeRm/view?usp=sharing)
 | [LFSD](https://drive.google.com/file/d/1tf58qxAlsfUA7eFWdlbeF3XXfEcEZqAR/view?usp=sharing)
@@ -15,7 +16,8 @@ Ours:  | [All](https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyvkyPH3gC
 | [SSD](https://drive.google.com/file/d/1q8yRa3ckKFOFaQQ4WgRwJU6wqJT5PERD/view?usp=sharing)
 | [STERE](https://drive.google.com/file/d/1TVt19Jpg5nZrBHaY863Foz0735fjboVD/view?usp=sharing) |
 
-Ours+: | [All](https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
+Ours+: | [All Google](https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
+| [ALL+ Baidu|sjzf](https://pan.baidu.com/s/12AJH94m5Hi-qXI7JByOtWA)
 | [DES+](https://drive.google.com/file/d/1f8ney3in65ToQDBghLwZVrRdDNkn8QCK/view?usp=sharing)
 | [DUT+](https://drive.google.com/file/d/1ywIIJJxKvZFFEkgF9HWSJem7I75omret/view?usp=sharing)
 | [LFSD+](https://drive.google.com/file/d/1qNGG7F9WthCgq9uPlRrPU1foFczbYLtB/view?usp=sharing)
