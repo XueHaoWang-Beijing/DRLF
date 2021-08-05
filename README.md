@@ -37,7 +37,7 @@ Ours:  | [All | rbhb](https://drive.google.com/file/d/1pYst3x1YLhulrQp6Yh7ycFoyv
 | [NLPR](https://drive.google.com/file/d/19Pp5bNXVDzaDEh-GHhkBNZ264kCYjvyb/view?usp=sharing)
 | [SIP](https://drive.google.com/file/d/1bmZNjH410M-I8padKqiLMjAxzQ6AIyFn/view?usp=sharing)
 | [SSD](https://drive.google.com/file/d/1q8yRa3ckKFOFaQQ4WgRwJU6wqJT5PERD/view?usp=sharing)
-| [STERE | rbhb](https://pan.baidu.com/s/1j2HJ3GxUA_N-6Z6c3ICY_g) |
+| [STERE(rbhb)](https://pan.baidu.com/s/1j2HJ3GxUA_N-6Z6c3ICY_g) |
 
 Ours+: | [All](https://drive.google.com/file/d/1l9E6cpoKWQQCg87W02yu7x9dEnBVCm3a/view?usp=sharing)
 | [DES+](https://drive.google.com/file/d/1f8ney3in65ToQDBghLwZVrRdDNkn8QCK/view?usp=sharing)
