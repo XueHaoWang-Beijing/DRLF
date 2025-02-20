@@ -1,6 +1,6 @@
-# Data-Level Recombination and Lightweight Fusion Scheme for RGB-D Salient Object Detection
+# TIP2021:Data-Level Recombination and Lightweight Fusion Scheme for RGB-D Salient Object Detection
 
-This repository contains code for paper "Data-Level Recombination and Lightweight Fusion Scheme for RGB-D Salient Object Detection".
+This repository contains code for paper "Data-Level Recombination and Lightweight Fusion Scheme for RGB-D Salient Object Detection" in TIP 2021.
 * The "Ours" folder contains the source code of our network, which utilizes original RGB and depth maps to calculate the saliency maps.
 * The "Ours+" folder contains the source code of our improved network, which replaces the original depth maps with the saliency predictions generated above.
 
